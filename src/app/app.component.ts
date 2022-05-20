@@ -10,6 +10,10 @@ export class AppComponent {
 
   displayChange(){
     const a = document.querySelector<HTMLElement>('.navBar')!;
-    a.style.display = 'none';
+    if(a.style.display==='block'){
+      a.style.display='none';
+    }
+    else
+      a.style.display = 'block';
   }
 }
