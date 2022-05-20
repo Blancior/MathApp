@@ -1,0 +1,19 @@
+.navBar{
+  justify-content: center;
+  align-self: flex-start;
+  flex-direction: column;
+  background-color: aqua;
+  width: 150px;
+  position: absolute;
+  float: left;
+}
+.routerOut{
+  display: flex;
+  justify-content: center;
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.componentName{
+  margin: 20px 0 20px 0;
+}

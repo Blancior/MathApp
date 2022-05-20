@@ -7,6 +7,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 @NgModule({
   declarations: [
     AppComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
@@ -16,4 +17,5 @@ import { CalculatorComponent } from './calculator/calculator.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

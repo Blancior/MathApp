@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MathApp';
+
+  displayChange(){
+    const a = document.querySelector<HTMLElement>('.navBar')!;
+    a.style.display = 'block';
+  }
 }
