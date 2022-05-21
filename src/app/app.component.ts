@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {MatMenuTrigger} from "@angular/material/menu";
 
 @Component({
   selector: 'app-root',
@@ -10,10 +11,12 @@ export class AppComponent {
 
   displayChange(){
     const a = document.querySelector<HTMLElement>('.navBar')!;
-    if(a.style.display==='block'){
-      a.style.display='none';
+    if(a.style.transition==='none'){
+      a.style.transition='transition: 0.5s transform ease-in-out;';
     }
     else
-      a.style.display = 'block';
+      a.style.transition = 'none';
   }
 }
+
+

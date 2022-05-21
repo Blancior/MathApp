@@ -1,11 +1,16 @@
+h1{
+  display: flex;
+  align-items: center;
+}
 .navBar{
   justify-content: center;
   align-self: flex-start;
   flex-direction: column;
   background-color: aqua;
-  width: 150px;
+  width: 200px;
   position: absolute;
   float: left;
+  transition: 0.5s transform ease-in-out;
 }
 .routerOut{
   display: flex;
@@ -14,6 +19,23 @@
   margin-left: auto;
   margin-right: auto;
 }
-.componentName{
-  margin: 20px 0 20px 0;
+.navBar ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 20px;
 }
+.navBar li{
+  margin-top: 10px;
+  background-color: red;
+}
+.menu{
+  transform: translateX(-150px);
+}
+.navBar:hover{
+transform: translateX(150px);
+}
+.navBar mat-icon{
+  float: right;
+}
+
