@@ -1,41 +1,15 @@
-h1{
+.routerOut
+{
+  max-width: 500px;
   display: flex;
-  align-items: center;
+  margin: 0 auto;
 }
-.navBar{
-  justify-content: center;
-  align-self: flex-start;
-  flex-direction: column;
-  background-color: aqua;
-  width: 200px;
-  position: absolute;
-  float: left;
-  transition: 0.5s transform ease-in-out;
-}
-.routerOut{
+p
+{
   display: flex;
   justify-content: center;
-  max-width: 490px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 40px;
+  font-weight: bolder;
 }
-.navBar ul{
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin-top: 20px;
-}
-.navBar li{
-  margin-top: 10px;
-  background-color: red;
-}
-.menu{
-  transform: translateX(-150px);
-}
-.navBar:hover{
-transform: translateX(150px);
-}
-.navBar mat-icon{
-  float: right;
-}
-
