@@ -1,4 +1,9 @@
 body{
   background: linear-gradient(to right,#CBCE91FF, #EA738DFF);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.dark-mode{
+  color: #cbcbcb;
+  background: #121212;
+}

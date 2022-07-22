@@ -1,5 +1,4 @@
 import {Component, ViewChild} from '@angular/core';
-import {MatMenuTrigger} from "@angular/material/menu";
 
 @Component({
   selector: 'app-root',
@@ -17,6 +16,9 @@ export class AppComponent {
     else
       a.style.transition = 'none';
   }
-}
 
-
+  darkMode(){
+    const tlo = document.body;
+    tlo.classList.toggle("dark-mode");
+  }
+ }
