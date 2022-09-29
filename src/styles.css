@@ -1,0 +1,9 @@
+body{
+  background: linear-gradient(to right,#CBCE91FF, #EA738DFF);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.dark-mode{
+  color: #cbcbcb;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(31, 77, 87) 100%);
+}

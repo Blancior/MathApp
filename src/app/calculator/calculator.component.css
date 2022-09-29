@@ -1,0 +1,23 @@
+.btn {
+  margin: 4px 2px 4px 25px;
+  color: white;
+  font-weight: bolder;
+}
+
+.result {
+  background-color: white;
+  color: black;
+  min-height: 80px;
+  margin-bottom: 20px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+
+.btn:nth-child(19) {
+  float: right;
+  margin-right: 185px;
+}
+
+/*# sourceMappingURL=calculator.component.css.map */
